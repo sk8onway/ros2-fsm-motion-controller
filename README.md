@@ -1,5 +1,9 @@
 # ROS2 FSM-Based Motion Controller (Square Trajectory)
 
+## Reference
+
+This implementation was inspired by the official ROS (Noetic) `draw_square` example, and was adapted to ROS2 with modifications in node structure, state handling, and control logic.
+
 ## Overview
 
 This project implements a **Finite State Machine (FSM)-based motion controller** in ROS2 to generate a square trajectory using pose feedback from `turtlesim`.
