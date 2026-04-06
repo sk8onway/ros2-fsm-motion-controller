@@ -12,7 +12,7 @@ The goal was not just trajectory generation, but to **understand and debug contr
 
 ---
 
-## 🧠 System Design
+## System Design
 
 The controller is structured as a **Finite State Machine (FSM)** with the following states:
 
@@ -56,7 +56,7 @@ error = atan2(sin(θ_goal - θ), cos(θ_goal - θ))
 
 ---
 
-## 🔥 Key Engineering Challenges & Fixes
+## Key Engineering Challenges & Fixes
 
 ### 1. Angle Wrapping Issue
 
@@ -83,7 +83,7 @@ atan2(sin(error), cos(error))
 
 ---
 
-## 📊 Observations
+## Observations
 
 - Small threshold values significantly affect stability
 - Angle normalization is critical for rotational control
@@ -91,7 +91,7 @@ atan2(sin(error), cos(error))
 
 ---
 
-## 🧪 How to Run
+## How to Run
 ```bash
 colcon build
 source install/setup.bash
@@ -100,7 +100,7 @@ ros2 run my_robot_cpp draw_square
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 ```
 my_robot_cpp/
 ├── src/
@@ -111,7 +111,7 @@ my_robot_cpp/
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 - Generalize to N-sided polygon trajectories
 - Introduce parameterized control (speed, thresholds, side length)
