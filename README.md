@@ -120,7 +120,7 @@ my_robot_cpp/
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 This project highlights:
 - Designing control systems using FSMs
