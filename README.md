@@ -27,7 +27,7 @@ State transitions are explicitly controlled using **goal conditions and stabilit
 
 ---
 
-## ⚙️ Control Logic
+## Control Logic
 
 ### Position Control
 
